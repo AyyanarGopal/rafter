@@ -1,1 +1,1 @@
-# test_code2
+This is only used to checking bootstrap code
