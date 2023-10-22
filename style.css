@@ -1,0 +1,227 @@
+/* header */
+
+header {
+    background-color: red;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    align-items: center;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+header i {
+    padding: 0 10px;
+}
+
+/* navbar */
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.navbar img {
+    width: 100%;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.navbar-toggler {
+    position: absolute;
+    right: 4vw;
+}
+
+/* banner section */
+
+.banner {
+    background: url(../rafter/images/hero-2.jpg) center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+/* banner images changes */
+
+.banner .image-changes {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.banner .image-changes img {
+    width: 8vw;
+    height: 10vh;
+    cursor: pointer;
+    margin: 10px 0;
+    border-top-left-radius: 31px;
+    border-bottom-left-radius: 31px;
+}
+
+/* banner text2 */
+
+.banner .text2 {
+    color: white;
+    position: absolute;
+    left: 8vw;
+    top: 22vh;
+    font-family: math;
+    font-weight: bold;
+}
+
+.banner .text2 .small-text {
+    font-size: 1.6rem;
+}
+
+.banner .text2 .big-text {
+    font-size: 3.6rem;
+    margin-top: 16px;
+}
+
+.banner .text2 .authors {
+    display: flex;
+    align-items: center;
+    margin-top: 14px;
+}
+
+.banner .text2 img {
+    border-radius: 50%;
+    width: 50px;
+    margin-right: -28px;
+}
+
+.banner .text2 .author-text {
+    margin-left: 40px;
+}
+
+/* banner text1 */
+
+.banner .text1 {
+    display: flex;
+    justify-content: center;
+}
+
+.banner .text1 .box {
+    display: flex;
+    background: navy;
+    color: white;
+    padding: 12px 20px;
+    align-items: center;
+    flex: 1;
+    font-weight: bold;
+}
+
+.banner .text1 i {
+    font-size: 1.8em;
+    color: red;
+    padding: 0px 20px;
+}
+
+/* banner labels */
+
+.banner-label {
+    position: relative;
+    top: -28px;
+}
+
+.banner-label .left {
+    background: #102039;
+    color: white;
+    text-align: center;
+    padding: 25px 12px;
+}
+
+.banner-label .right p {
+    color: #888888;
+}
+
+.banner-label .left i {
+    font-size: 3em;
+}
+
+.banner-label .right {
+    padding: 18px;
+    padding: 40px 34px;
+}
+
+.banner-label .right a {
+    text-decoration: none;
+    color: gray;
+}
+
+.banner-label .col-md-6 {
+    margin-bottom: 10px;
+}
+
+/* slide */
+
+.slide {
+    display: flex;
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+    background-color: #102039;
+}
+
+.slide .box {
+    background-color: white;
+    margin: 28px 28px 28px 0px;
+    flex-basis: 186px;
+    padding: 28px 16px;
+    text-align: center;
+}
+
+.slide h3 {
+    font-size: 1.5em;
+}
+
+.slide i {
+    font-size: 3em;
+    margin: 10px;
+    color: #ea1826;
+}
+
+/* media query */
+
+@media(max-width:992px) {
+    .banner .text1 {
+        display: none;
+    }
+}
+
+@media(max-width: 768px) {
+    header .container {
+        display: none;
+    }
+
+    .banner .image-changes {
+        display: none;
+    }
+
+    .banner .text2 .big-text {
+        font-size: 2.6rem;
+    }
+}
+
+@media(max-width:600px) {
+    .banner .text2 {
+        left: 0;
+    }
+}
+
+@media(max-width:568px) {
+    .banner .text2 .big-text {
+        font-size: 8vw;
+    }
+
+    .banner .text2 .small-text {
+        font-size: 1rem;
+    }
+}
