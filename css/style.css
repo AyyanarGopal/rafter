@@ -40,7 +40,7 @@ header i {
 /* banner section */
 
 .banner {
-    background: url(./images/hero-2.jpg) center;
+    background: url(../images/hero-2.jpg) center;
     background-size: cover;
     height: 100vh;
     position: relative;
