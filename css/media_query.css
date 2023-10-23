@@ -1,0 +1,37 @@
+/* media query */
+
+@media(max-width:992px) {
+    .banner .text1 {
+        display: none;
+    }
+}
+
+@media(max-width: 768px) {
+    header .container {
+        display: none;
+    }
+
+    .banner .image-changes {
+        display: none;
+    }
+
+    .banner .text2 .big-text {
+        font-size: 2.6rem;
+    }
+}
+
+@media(max-width:600px) {
+    .banner .text2 {
+        left: 0;
+    }
+}
+
+@media(max-width:568px) {
+    .banner .text2 .big-text {
+        font-size: 8vw;
+    }
+
+    .banner .text2 .small-text {
+        font-size: 1rem;
+    }
+}

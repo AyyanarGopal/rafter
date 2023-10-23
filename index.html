@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media_query.css">
+
+</head>
+
+<body>
+
+    <!-- header -->
+
+    <header class="container-fluid">
+        <div class="container">
+            <div class="head-left">
+                <p>We are the Best Consulting web site as part of the annual</p>
+            </div>
+
+            <div class="head-right">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="./images/logo-footer.png" alt="Bootstrap" width="150px"
+                    height="50px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="d-flex">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                About
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Pages
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Blog
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page"><i class="fa-brands fa-lens"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- banner -->
+
+    <div class="banner" id="banner">
+
+        <div class="image-changes">
+            <img src="./images/hero-2.jpg" width="" alt="" onclick="changeImage1()">
+            <img src="./images/hero-1-scaled.jpg" width="" alt="" onclick="changeImage2()">
+            <img src="./images/video-1.jpg" width="" alt="" onclick="changeImage3()">
+        </div>
+
+        <div class="container text2">
+            <div class="small-text">Welcome To Roofing</div>
+            <div class="big-text">Discover The Rafter <br>Effective Roofing <br>Services</div>
+            <div class="authors">
+                <img src="./images/author-2.jpg" alt="">
+                <img src="./images/author-3.jpg" alt="">
+                <img src="./images/author-4.jpg" alt="">
+                <img src="./images/author-5.jpg" alt="">
+                <span class="author-text">Trusted Client</span>
+            </div>
+
+        </div>
+
+        <div class="container text1">
+            <div class="box">
+                <span>
+                    <i class="fa-solid fa-location"></i>
+                </span>
+                <span>
+                    <span>Location:</span><br>
+                    <span>14A/ Pure Street City</span>
+                </span>
+            </div>
+
+            <div class="box">
+                <span>
+                    <i class="fa-solid fa-envelope"></i>
+                </span>
+                <span>
+                    <span>Email us:</span><br>
+                    <span>info@example.com</span>
+                </span>
+            </div>
+
+            <div class="box">
+                <span>
+                    <i class="fa-solid fa-phone"></i>
+                </span>
+                <span>
+                    <span>Call us:</span><br>
+                    <span>+000-723-123-21</span>
+                </span>
+            </div>
+
+            <div class="box" style="background-color: red;">
+                <span>
+                    Discover More
+                </span>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- banner labels -->
+
+    <div class="container banner-label">
+        <div class="row">
+
+            <div class="col-lg-4 col-md-6">
+                <div class="row">
+                    <div class="col left">
+                        <i class="fas fa-building"></i>
+                        <h3>Residential</h3>
+                    </div>
+                    <div class="col right">
+                        <p>Lorem Ipsum is simply dummy text of the printing</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="row">
+                    <div class="col left">
+                        <i class="fas fa-building"></i>
+                        <h3>Residential</h3>
+                    </div>
+                    <div class="col right">
+                        <p>Lorem Ipsum is simply dummy text of the printing</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="row">
+                    <div class="col left">
+                        <i class="fas fa-building"></i>
+                        <h3>Residential</h3>
+                    </div>
+                    <div class="col right">
+                        <p>Lorem Ipsum is simply dummy text of the printing</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- slider -->
+
+    <div class="container slide">
+
+        <div class="col box">
+            <i class="fa-solid fa-house-chimney-crack"></i>
+            <h3>Roof Installation</h3>
+        </div>
+
+        <div class="col box">
+            <i class="fa-solid fa-house-chimney-crack"></i>
+            <h3>Roof Cornering</h3>
+        </div>
+
+        <div class="col box">
+            <i class="fa-solid fa-house-chimney-crack"></i>
+            <h3>Roof Frame Design</h3>
+        </div>
+
+        <div class="col box">
+            <i class="fa-solid fa-house-chimney-crack"></i>
+            <h3>Roof Layer Fixing</h3>
+        </div>
+
+        <div class="col box">
+            <i class="fa-solid fa-house-chimney-crack"></i>
+            <h3>Roof Damage Repair</h3>
+        </div>
+
+        <div class="col box">
+            <i class="fa-solid fa-house-chimney-crack"></i>
+            <h3>Roof Siding Corner</h3>
+        </div>
+
+    </div>
+
+
+    <script src="./js/script.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
